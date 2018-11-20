@@ -1,0 +1,54 @@
+.button {
+    width: 35px;
+    height: 35px;
+    font-weight: bold;
+    background: white;
+    border: 1px solid black;
+    margin: 2px 1px;
+    text-decoration-color: red;
+}
+.button1 {
+    width: 35px;
+    height: 35px;
+    background: black;
+    margin: 2px 1px;
+    text-decoration-color: white;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left{
+    left: 0;
+    background-color: azure;
+}
+.right{
+    right: 0;
+    background-color: grey;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.center1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.center2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
